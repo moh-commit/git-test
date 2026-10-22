@@ -17,4 +17,6 @@ const isValid = () => false;
 
 const getToken = () => true;
 
-const addCourse = () => true;
+const addCourse = (course) => {
+  return { message: "refactored" };
+};

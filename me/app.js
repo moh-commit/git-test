@@ -7,3 +7,5 @@ const getMe = () => true;
 const test = () => true;
 
 const isValid = () => false;
+
+const getToken = () => true;

@@ -4,4 +4,6 @@ const register = () => false;
 
 const getMe = () => true;
 
-const test = () => true
+const test = () => true;
+
+const isValid = () => false;

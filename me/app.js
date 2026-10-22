@@ -5,7 +5,9 @@ const isLogin = (token) => {
   return false;
 };
 
-const register = () => false;
+const register = (token) => {
+  localStorage.setItem("token", JSON.stringify(token));
+};
 
 const getMe = () => true;
 

@@ -9,3 +9,5 @@ const test = () => true;
 const isValid = () => false;
 
 const getToken = () => true;
+
+const addCourse = () => true;

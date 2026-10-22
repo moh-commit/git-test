@@ -22,3 +22,5 @@ const addCourse = (course) => {
 };
 
 const addLike = () => true;
+
+const addDisLike = () => false;

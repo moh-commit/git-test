@@ -20,3 +20,5 @@ const getToken = () => true;
 const addCourse = (course) => {
   return { message: "refactored" };
 };
+
+const addLike = () => true;

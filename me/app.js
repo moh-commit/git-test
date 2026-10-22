@@ -1,4 +1,9 @@
-const isLogin = () => true;
+const isLogin = (token) => {
+  if (token) {
+    return true;
+  }
+  return false;
+};
 
 const register = () => false;
 
